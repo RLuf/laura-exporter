@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Exportar Conversa GPT",
+  "version": "1.0",
+  "description": "Exporta a conversa atual como .txt",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "popup.js"
+  }
+}
