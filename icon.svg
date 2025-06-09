@@ -1,0 +1,5 @@
+<!-- Salve como icon.svg e converta para PNG 128x128 -->
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="#4F46E5"/>
+  <text x="50%" y="50%" text-anchor="middle" fill="#fff" font-size="48" font-family="Arial" dy=".35em">💬</text>
+</svg>
