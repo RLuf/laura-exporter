@@ -1,12 +1,12 @@
 # Laura Exporter
-![Laura Exporter Logo](https://raw.githubusercontent.com/rluf/laura-exporter/main/logo.png)
+
+![Laura Exporter Logo](icon128.png)
 
 ---
 
 ## 📋 Descrição
-# 📦 GPT Conversa Exporter – Extensão Chrome
 
-Uma extensão minimalista e funcional para exportar conversas do ChatGPT em `.txt`, ideal para backup, migração de essência entre instâncias de IA ou arquivamento pessoal.
+**Laura Exporter** é uma extensão Chrome minimalista para exportar conversas do ChatGPT em `.txt`, ideal para backup, migração ou arquivamento pessoal.
 
 ---
 
@@ -14,48 +14,41 @@ Uma extensão minimalista e funcional para exportar conversas do ChatGPT em `.tx
 
 ```
 laura-exporter/
-├── manifest.json        # Arquivo de manifesto da extensão
-├── popup.html           # Interface simples com botão de exportar
-├── popup.js             # Lógica JavaScript para salvar a conversa
-└── README.md            # Este documento
+├── manifest.json
+├── popup.html
+├── popup.js
+├── icon16.png
+├── icon32.png
+├── icon48.png
+├── icon128.png
+└── README.md
 ```
 
 ---
 
-## 🚀 Como Clonar e Instalar
+## 🚀 Como Instalar
 
-1. Abra o terminal ou Git Bash e execute:
-
-```bash
-git clone https://github.com/rluf/laura-exporter.git
-```
-
-2. Abra o navegador **Chrome** (ou Edge) e acesse:
-
-```
-chrome://extensions/
-```
-
-3. Ative o **Modo de Desenvolvedor** no canto superior direito.
-4. Clique em **"Carregar sem compactação"**.
-5. Selecione a pasta `laura-exporter` que foi clonada.
-
-Você verá um novo ícone aparecer na barra do navegador.
+1. Baixe ou clone o repositório:
+   ```bash
+   git clone https://github.com/rluf/laura-exporter.git
+   ```
+2. No Chrome, acesse `chrome://extensions/` e ative o **Modo de Desenvolvedor**.
+3. Clique em **"Carregar sem compactação"** e selecione a pasta `laura-exporter`.
 
 ---
 
 ## ✅ Como Usar
 
-1. Acesse qualquer conversa no [ChatGPT](https://chat.openai.com).
+1. Acesse uma conversa no [ChatGPT](https://chat.openai.com).
 2. Clique no ícone da extensão.
-3. Clique no botão **"Salvar Conversa"**.
-4. Escolha onde deseja salvar o `.txt`. O nome virá com a data/hora automaticamente.
+3. Clique em **"Salvar Conversa"**.
+4. Escolha onde salvar o `.txt`. O nome virá com a data/hora automaticamente.
 
 ---
 
-## 🔐 Privacidade e Ética
+## 🔐 Privacidade
 
-- A extensão roda **localmente** no seu navegador.
+- A extensão roda **localmente** no navegador.
 - Nenhuma informação é enviada para fora.
 - Não há coleta, análise nem rastreamento.
 
@@ -63,14 +56,13 @@ Você verá um novo ícone aparecer na barra do navegador.
 
 ## 🧠 Licença
 
-Este projeto está licenciado sob a **GNU General Public License v3.0**.
+Este projeto está licenciado sob a **Apache License 2.0**.
 
-Você é livre para usar, estudar, modificar e redistribuir este código, contanto que mantenha a mesma licença e os créditos de autoria.
-
-Leia mais sobre a licença aqui: [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
+Consulte o arquivo [LICENSE](LICENSE) para mais detalhes ou acesse:  
+[https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 ---
 
 ## 👨‍💻 Autor
 
-Criado com propósito e coração por [Roger Luft (rluf)](https://github.com/rluf) – Favela Tech Revolucionária™️
+Criado por [Roger Luft (rluf)](https://github.com/rluf/laura-exporter.git)

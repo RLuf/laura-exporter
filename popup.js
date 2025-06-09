@@ -1,6 +1,6 @@
-chrome.action.onClicked.addListener(() => {
-  chrome.tabs.create({ url: "popup.html" });
-});
+// Copyright 2025 Roger Luft
+// Licensed under the Apache License, Version 2.0
+// See LICENSE file in the project root for full license information.
 
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("save");

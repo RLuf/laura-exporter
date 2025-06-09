@@ -1,13 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "Exportar Conversa GPT",
-  "version": "1.0",
-  "description": "Exporta a conversa atual como .txt",
+  "name": "Laura Exporter",
+  "version": "1.0.0",
+  "description": "Exporte conversas do ChatGPT para .txt com um clique.",
   "permissions": ["activeTab", "scripting", "downloads"],
   "action": {
     "default_popup": "popup.html"
   },
-  "background": {
-    "service_worker": "popup.js"
-  }
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "author": "Roger Luft",
+  "homepage_url": "https://github.com/rluf/laura-exporter",
+  "license": "Apache-2.0"
 }
