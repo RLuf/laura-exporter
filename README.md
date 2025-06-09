@@ -1,3 +1,9 @@
+# Laura Exporter
+![Laura Exporter Logo](https://raw.githubusercontent.com/rluf/laura-exporter/main/logo.png)
+
+---
+
+## 📋 Descrição
 # 📦 GPT Conversa Exporter – Extensão Chrome
 
 Uma extensão minimalista e funcional para exportar conversas do ChatGPT em `.txt`, ideal para backup, migração de essência entre instâncias de IA ou arquivamento pessoal.
